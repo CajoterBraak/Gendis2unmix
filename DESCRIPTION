@@ -1,0 +1,24 @@
+Package: Gendis2unmix
+Type: Package
+Title: Calculates a generalized discriminant function to unmix two classes, typically sexes of birds
+Version: 0.1.0
+Author: Cajo J.F. ter Braak
+Maintainer: Cajo J.F. ter Braak <cajo.terbraak@wur.nl>
+Description: The goal of Gendis2unmix is to sex birds from a population on the basis of several measurements.
+ The key feature is that the birds from different populations may differ in size but that within populations
+ females are smaller than males (or reversely).
+ The predict function for a set of unsexed birds from a new population therefore estimates
+ a new cutoff value which thus depends on the sizes of the birds in the new population.
+ In the training phase, a generalized discriminant function (GDF) is calculated  
+ from a birds of known sex of different populations, in which the algorithm uses
+ a common within-covariance matrix across populations and sexes. In the prediction phase Gendis2unmix 
+ then applies the GDF to measurements of individuals of unknow sex or class.
+ The cutoff value is determined by unmixing the distribution in terms of two normal distributions
+ with unequal means and variances using an EM algorithm. 
+ The parametric approach taken in Gendis2unmix make it suitable for small number
+ of samples in both the training and prediction phase (say 20-100 per sex/population).
+Depends: R (>= 3.5.0)
+License: GPL-3 | file LICENSE
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.1.1
