@@ -15,7 +15,7 @@ result2 <- gendis(population = "pop", sex = "sex",
 # all equal should not give numeric differences.
 #all.equal(result, result2)
 
-result2$GDF -result$GDF
+result2$GDF - result$GDF
 
 
 

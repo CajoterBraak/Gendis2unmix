@@ -5,7 +5,7 @@
 #' @param  object an object of class gendis, created by \code{\link{gendis}}.
 #' @param ... other optional arguments.
 #' @return  GDF
-#' @seealso \code{\link{gendis}}, \code{\link{print.gendis}}.
+#' @seealso \code{\link{gendis}}, \code{\link{print.gendis}},\code{\link{predict.gendis}}.
 #' @example demo/demo1.r
 #' @references van Franeker, J A. ter Braak, C J F. 1993.
 #' A generalized discriminant for sexing fulmarine petrels from

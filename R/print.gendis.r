@@ -2,11 +2,11 @@
 #' @title Printing results a generalized discriminant analysis
 #'
 #' @description
-#' \code{print.gendis} summarizes the results of \code{\link{gendis}} in more detail than \code{summary.gendis}.
+#' \code{print.gendis} prints the results of \code{\link{gendis}} in more detail than \code{summary.gendis}.
 #' @param  x an object of class gendis, created by \code{\link{gendis}}.
 #' @param ... other optional arguments
 #' @return  list of within-sex correlations matrices per population (invisible)
-#' @seealso \code{\link{gendis}}, \code{\link{print.gendis}}.
+#' @seealso \code{\link{gendis}}, \code{\link{summary.gendis}}, \code{\link{predict.gendis}}.
 #' @example demo/demo1.r
 #' @references van Franeker, J A. ter Braak, C J F. 1993.
 #' A generalized discriminant for sexing fulmarine petrels from

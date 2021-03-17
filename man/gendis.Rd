@@ -48,8 +48,8 @@ An object of class gendis which is a named list, among which,
 \code{gendis} calculates a generalized discriminant function to distinguish two classes,
 typically sexes (male and female birds)
 based on measurements of a number of indicators for individuals from each of the two sexes
-from a series of different populations in which individuals may have a different size but
-the same covariance matrix between the measurements (common-within covariance matrix)
+from a series of different populations in which individuals may have a different mean size but
+a common-within covariance matrix.
 }
 \examples{
 data("fulmarin")
@@ -69,7 +69,7 @@ result2 <- gendis(population = "pop", sex = "sex",
 # all equal should not give numeric differences.
 #all.equal(result, result2)
 
-result2$GDF -result$GDF
+result2$GDF - result$GDF
 
 
 

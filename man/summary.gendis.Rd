@@ -35,7 +35,7 @@ result2 <- gendis(population = "pop", sex = "sex",
 # all equal should not give numeric differences.
 #all.equal(result, result2)
 
-result2$GDF -result$GDF
+result2$GDF - result$GDF
 
 
 
@@ -46,5 +46,5 @@ A generalized discriminant for sexing fulmarine petrels from
 external measurements. The Auk 110: pp 492-502ter Braak (2019)
 }
 \seealso{
-\code{\link{gendis}}, \code{\link{print.gendis}}.
+\code{\link{gendis}}, \code{\link{print.gendis}},\code{\link{predict.gendis}}.
 }

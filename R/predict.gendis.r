@@ -3,20 +3,21 @@
 #' @description
 #' \code{predict.gendis} applies a generalized discriminant function created with \code{\link{gendis}}
 #'  to predict the sex (class) of each individual with measurements in \code{newdata}. From the  \code{\link{gendis}}
-#'  object, the coefficients that define the generalized discriminant function (GDF) are to applied to the
+#'  object, the coefficients that define the generalized discriminant function (GDF) are applied to the
 #'  \code{newdata} to obtain the discriminant scores.
 #' @param  object an object of class gendis, typically created with \code{\link{gendis}}
 #' @param  newdata a data frame with measurements on (new) individuals with variables used to create \code{object}.
 #' The data should be from a single population. If your data are from multiple populations, use \code{predict} for each
-#' subset.
-#' @param type what to predict : the sex or class of each individual (default),
+#' subset (i.e. for each population).
+#' @param type what to predict: the sex or class of each individual (default),
 #' the generalized discriminant scores with cutpoint ("GDF" or "GDFscore") or
-#' the full output of the unmixing algorithm  ("cutpoint")
+#' the full output of the unmixing algorithm \code{\link{unmix}}  ("cutpoint")
 #' @param verbose logical (default = FALSE). If TRUE a plot of the density of the GDF is produced.
 #' @param ... other optional arguments
 #' @return  See argument \code{type}.
-#' @details The discriminant scores (a linear combination of the measurements of the \code{newdata}
-#' using the GDF coefficients) are subjected to an unmixing algorithm. This algorithm (\code{\link{unmix}}) generates a cutpoint
+#' @details The discriminant score are a linear combination of the variables in \code{newdata}
+#' that are shared with the variables used to create the \code{object}. The linear combination is defined by
+#' the GDF coefficients. The discriminant scores are subjected to an unmixing algorithm. This algorithm (\code{\link{unmix}}) generates a cutpoint
 #' below which individuals are predicted to be female (level 1 of \code{factor(sex)}) and above which they are predicted to be
 #' male (level 2 of \code{factor(sex)}). The cutpoint is at the point of intersection of two normal densities with unequal
 #' means and variances fitted to the discriminant scores (see \code{\link{unmix} for details}).

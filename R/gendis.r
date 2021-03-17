@@ -4,8 +4,8 @@
 #' \code{gendis} calculates a generalized discriminant function to distinguish two classes,
 #' typically sexes (male and female birds)
 #' based on measurements of a number of indicators for individuals from each of the two sexes
-#' from a series of different populations in which individuals may have a different size but
-#' the same covariance matrix between the measurements (common-within covariance matrix)
+#' from a series of different populations in which individuals may have a different mean size but
+#' a common-within covariance matrix.
 #' @param  population a name of the variable for the populations in the data (default "population")
 #' @param  sex a name of the variable indicating the two classes to distinguish in the data (default "sex")
 #' (0 vs 1 or "female" vs "male")

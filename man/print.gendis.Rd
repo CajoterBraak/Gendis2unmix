@@ -15,7 +15,7 @@
 list of within-sex correlations matrices per population (invisible)
 }
 \description{
-\code{print.gendis} summarizes the results of \code{\link{gendis}} in more detail than \code{summary.gendis}.
+\code{print.gendis} prints the results of \code{\link{gendis}} in more detail than \code{summary.gendis}.
 }
 \examples{
 data("fulmarin")
@@ -35,7 +35,7 @@ result2 <- gendis(population = "pop", sex = "sex",
 # all equal should not give numeric differences.
 #all.equal(result, result2)
 
-result2$GDF -result$GDF
+result2$GDF - result$GDF
 
 
 
@@ -46,5 +46,5 @@ A generalized discriminant for sexing fulmarine petrels from
 external measurements. The Auk 110: pp 492-502ter Braak (2019)
 }
 \seealso{
-\code{\link{gendis}}, \code{\link{print.gendis}}.
+\code{\link{gendis}}, \code{\link{summary.gendis}}, \code{\link{predict.gendis}}.
 }
