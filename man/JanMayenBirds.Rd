@@ -24,5 +24,5 @@ A generalized discriminant for sexing fulmarine petrels from
 external measurements. The Auk 110: pp 492-502, https://doi.org/10.2307/4088413 https://edepot.wur.nl/249350
 }
 \author{
-Jan-Andries van Franeker (\email{jan.vanfraneker@wur.nl})
+Jan Andries van Franeker (\email{jan.vanfraneker@wur.nl})
 }

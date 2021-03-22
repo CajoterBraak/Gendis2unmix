@@ -15,7 +15,7 @@
 #' }
 #' @name JanMayenBirds
 #' @docType data
-#' @author Jan-Andries van Franeker (\email{jan.vanfraneker@wur.nl})
+#' @author Jan Andries van Franeker (\email{jan.vanfraneker@wur.nl})
 #' @references van Franeker, J A. ter Braak, C J F. 1993.
 #' A generalized discriminant for sexing fulmarine petrels from
 #' external measurements. The Auk 110: pp 492-502, https://doi.org/10.2307/4088413 https://edepot.wur.nl/249350
