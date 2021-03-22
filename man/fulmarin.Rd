@@ -20,9 +20,9 @@ with sex known from dissection or, for Snow Petrels, observation. The variables 
 }
 \item\code{sex} 0 is female; 1 is male
 \item\code{HB} Head Length (mm)
-\item\code{B} Bill Depth at gonys (mm)
+\item\code{BD2} Bill Depth at gonys (mm)
 \item\code{TL} Tarsus Length (mm)
-\item\code{CL} Culmen Length (mm.
+\item\code{CL} Culmen Length (mm).
 }
 }
 \references{

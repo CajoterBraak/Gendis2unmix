@@ -13,7 +13,7 @@ The data frame \code{JanMayenBirds} contains measurements on Fulmarine petrels b
 \item\code{DATE} measurement date (character)
 \item\code{DISSEX} 0 is female; 1 is male
 \item\code{HB} Head Length (mm)
-\item\code{B} Bill Depth at gonys (mm)
+\item\code{BD2} Bill Depth at gonys (mm)
 \item\code{TL} Tarsus Length (mm)
 \item\code{CL} Culmen Length (mm.
 }
