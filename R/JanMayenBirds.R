@@ -1,7 +1,8 @@
 #' @title Fulmarin petrels with unknown sex from Jan Mayen
 #'
 
-#' @description The data frame \code{JanMayenBirds} contains measurements on Fulmarine petrels birds from Jan Mayen.
+#' @description The data frame \code{JanMayenBirds} contains measurements on the Northern Fulmar petrels birds from
+#'  the population at Jan Mayen.
 #'  From the first 32 birds the sex is known by dissection, from the remaining 162 birds the sex is unknown.
 #' \itemize{
 #' \item\code{JAFCODE} bird code (character)

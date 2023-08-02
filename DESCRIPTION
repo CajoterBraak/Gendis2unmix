@@ -1,7 +1,7 @@
 Package: Gendis2unmix
 Type: Package
 Title: Calculates a generalized discriminant function to unmix two classes, typically sexes of birds
-Version: 0.1.0
+Version: 0.1.1
 Author: Cajo J.F. ter Braak
 Maintainer: Cajo J.F. ter Braak <cajo.terbraak@wur.nl>
 Description: The goal of Gendis2unmix is to sex birds from a population on the basis of several measurements.
@@ -15,4 +15,4 @@ Depends: R (>= 3.5.0)
 License: GPL-3 | file LICENSE
 Encoding: UTF-8
 LazyData: true
-RoxygenNote: 7.1.1
+RoxygenNote: 7.2.3
